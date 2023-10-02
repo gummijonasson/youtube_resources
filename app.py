@@ -17,7 +17,6 @@ HUGGINGFACEHUB_API_TOKEN = os.environ.get("HUGGINGFACEHUB_API_TOKEN")
 METAPHOR_API_TOKEN = os.environ.get("METAPHOR_API_TOKEN")
 
 metaphor = Metaphor(METAPHOR_API_TOKEN)
-#metaphor = Metaphor("4b96d22f-eb40-45ae-88c4-2ffb99a32e4a")
 
 st.title(':tv: YouTube Learning Resource Summarizer')
 prompt = st.text_input('Plug in your YouTube video URL here:') 
